@@ -30,7 +30,7 @@ multiRegression = LinearRegression()
 # train on training set
 multiRegression.fit(X_train, Y_train)
 
-print("==================Performance on new observations======================")
+print("==================Performance on new observations or test data======================")
 # This time we have several features so this time we need to visualization it as 2 vectors. 10 actual profits and 10 predicted profit
 # predictions based on features
 
